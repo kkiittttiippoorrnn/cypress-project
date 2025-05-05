@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "username": "kittiporn",
+      "email": "64143117@cmru.ac.th",
+      "password": "1240600203634",
+      "exists": true
+    },
+    {
+      "username": "nonexistentuser",
+      "email": "nonexistent@example.com",
+      "password": "correctpassword",
+      "exists": false
+    },
+    {
+      "username": "testuser",
+      "email": "test@example.com",
+      "password": "incorrectpassword",
+      "exists": true
+    }
+  ],
+  "registration": {
+    "validUser": {
+      "username": "student1",
+      "email": "student1@example.com",
+      "password": "StudentPass123",
+      "confirmPassword": "StudentPass123",
+      "userType": "นักศึกษา",
+      "department": "ทดสอบ",
+      "profilePicture": "example.png"
+    }
+  },
+  "rooms": [
+    {  "id": 1, "name": "ห้องประชุม A", "capacity": 10, "meeting_date": "2025-04-07" }, 
+    { "id": 2, "name": "ห้องประชุม B", "capacity": 5, "meeting_date": "2025-04-08" },
+    { "id": 3, "name": "ห้องประชุม C", "capacity": 20, "meeting_date": "2025-04-16" },
+    { "id": 4, "name": "ห้องประชุม D", "capacity": 8, "meeting_date": "2025-04-09" }
+
+  ]
+}
